@@ -1,0 +1,273 @@
+body{
+    background-color: #fafafa;
+ 
+}
+
+.font{
+    font-family: Garamond, serif;
+    font-size: 14px;
+    caret-color: rgba(0,0,0,0); /*to disable blinking cursor*/
+}
+
+a, a:active { /* Removes the font setting of a hyperlink */
+    font-size: 20px;
+    text-decoration: none;
+    color:#DDDDDD;
+    font-weight:lighter;
+}
+
+a:hover{ /* hovering effect */
+    color:#f07714;
+}
+
+a:hover img {
+    opacity: 0.2;
+}
+
+#title{
+    font-size:50px;   
+    color: #f07714;
+    padding: 40px;
+  
+
+    background-color:#ececec;
+    margin: 40px;
+        
+    border-radius: 20px;
+    
+    
+}
+
+/* Main Content */
+.layout{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+/*Header*/
+.headerStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+    
+    background-color: #30475E;
+    width:100%;
+    padding: 15px;
+    margin-top: -10px;
+    margin-left: -26px;
+ 
+
+}
+
+/*Main*/
+    /*Home*/
+.homeStyle{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+
+    
+    background-color:#30475E;
+    margin: 40px;
+        
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    
+}   
+
+.homeStyle h1{
+    font-size: 45px;
+    color: #f07714;
+}
+
+.homeStyle h3{
+    font-size: 20px;
+    color: #fafafa;
+    font-weight: lighter;
+   
+}
+.homeStyle img{
+    margin: 20px -5px 20px 0px;
+    width:300px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    border: 3px solid #222831;
+}
+
+#name{
+    margin: 100px 0px -20px 0px;
+}
+
+    /*About Me*/
+.aboutMeStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    color: #f07714;
+    font-size:50px;    
+
+    background-color:#ececec;
+    margin: 40px;
+        
+    border-radius: 20px;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+
+}
+
+.aboutMeStyle h4{
+    font-size:30px;
+    color: #f07714;
+    margin:  40px 0px -5px 0px 
+    
+}
+
+.aboutMeStyle p{
+    font-size:20px;
+    margin: -60px  180px 10px 180px;
+    text-align: center;
+    color:#222831
+}
+
+.aboutMeStyle img{
+    border-radius: 30px;
+    width:250px;
+    padding:10px;
+    border:3px solid #30475E
+}
+
+    /*Service*/
+.serviceStyle{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    background-color:#ececec;
+    margin: 40px;
+        
+    border-radius: 20px;
+}
+
+.serviceStyle p{
+    font-size:30px;
+    padding:20px;
+    text-align: center;
+    margin: 0px 120px 0px 120px;
+}
+
+.serviceStyle img{
+    border-top-left-radius: 180px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 180px;
+    border-bottom-left-radius: 50px;
+    width:650px;
+    padding:15px;
+    margin: 30px  10px 0px 20px;
+    border: 1px solid #222831;
+}
+
+    /*Portfolio*/
+        /*Service*/
+.portfolioStyle{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    background-color:#ececec;
+    margin: 40px;
+        
+    border-radius: 20px;
+}
+
+.portfolioStyle img{
+    width:350px;
+    padding:15px;
+    margin: 30px  10px 60px 20px;
+    border-radius: 40px;
+    border: 1px solid #222831;
+}
+
+.videoStyle{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    background-color:#ececec;
+    margin: 40px;
+        
+    border-radius: 20px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+}
+
+.videoStyle h3{
+    margin-top: -4px;
+    text-align: center;
+    font-size:25px;    
+    color: #fafafa;
+    font-weight: lighter;
+    background-color: #222831;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.videoStyle video{
+    padding-top: 20px;
+    width:750px;
+
+}
+
+/*Footer*/
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #30475E;
+    color:#fafafa;
+    gap:20px;
+    margin-bottom:-10px;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.footer h4{
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.footer img{
+    margin-right: -30px;
+    width: 20px;
+    padding:10px
+
+}
+
+#picSmall{
+    width: 40px;
+}
+
+
